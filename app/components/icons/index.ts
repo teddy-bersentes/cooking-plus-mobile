@@ -1,0 +1,5 @@
+export * from './IconFryingPan'
+export * from './IconMenu'
+export * from './IconArrowLeft'
+export * from './IconArrowRight'
+export * from './IconGroup'

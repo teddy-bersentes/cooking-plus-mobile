@@ -1,0 +1,57 @@
+{
+	"name": "Cook+",
+	"displayName": "Cook+",
+	"expo": {
+		"name": "Cook+",
+		"slug": "CookPlus",
+		"scheme": "cookplus",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/images/icon.png",
+		"splash": {
+			"image": "./assets/images/splash-ios.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#11284F"
+		},
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"plugins": [
+			[
+				"react-native-auth0",
+				{
+					"domain": "dev-px3tcaktu3fzh3e1.us.auth0.com"
+				}
+			]
+		],
+		"jsEngine": "hermes",
+		"assetBundlePatterns": [
+			"**/*"
+		],
+		"android": {
+			"icon": "./assets/images/icon.png",
+			"package": "com.teddy.cookplus",
+			"splash": {
+				"image": "./assets/images/splash-android.png",
+				"resizeMode": "contain",
+				"backgroundColor": "#11284F"
+			}
+		},
+		"ios": {
+			"icon": "./assets/images/icon.png",
+			"supportsTablet": true,
+			"bundleIdentifier": "com.teddy.cookplus",
+			"splash": {
+				"image": "./assets/images/splash-ios.png",
+				"resizeMode": "contain",
+				"backgroundColor": "#11284F"
+			}
+		},
+		"extra": {
+			"eas": {
+				"projectId": "0b98e361-351b-4324-a322-47bb756a7677"
+			}
+		},
+		"owner": "teddy-bersentes"
+	}
+}
